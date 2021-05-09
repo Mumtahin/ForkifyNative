@@ -5,17 +5,17 @@ import useResults from '../hooks/useResults';
 
 const SearchScreen = () => {
     const [term, setTerm] = useState('');
-    const [searchApi, results, errorMessage] = useResults;
+    const [searchApi, results, errorMessage] = useResults();
 
     return (
         <View>
             <SearchBar 
                 term={term} 
                 onTermChange={setTerm}
-                // onTermSubmit={() => searchApi(term)}
+                onTermSubmit={() => searchApi(term)}
             />
-            {/* {errorMessage ? <Text>{errorMessage}</Text> : null}
-            <Text>Results: {results.length}</Text> */}
+            {errorMessage ? <Text>{errorMessage}</Text> : null}
+            <Text>Results: {results.length}</Text>
         </View>
     )
 };
