@@ -1,3 +1,3 @@
 export const connection = {
-    YELP_API_TOKEN: "Bearer [INSERT_YELP_API_TOKEN]"
+    YELP_TOKEN: "Bearer [INSERT_YELP_API_TOKEN]"
 }
