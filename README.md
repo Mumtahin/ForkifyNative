@@ -4,7 +4,7 @@ A React Native based mobile application that uses the Yelp API to search nearby 
 ## Getting Started
 
 ##### 1. Setup Yelp API connection
-Follow the instructions found in [https://www.yelp.com/developers/documentation/v3/authentication](https://www.yelp.com/developers/documentation/v3/authentication) to setup an account and obtain the API key. The copy the API key and paste it into connection.js replacing `[INSERT_YELP_API_TOKEN]` with the API key.
+Follow the instructions found in [https://www.yelp.com/developers/documentation/v3/authentication](https://www.yelp.com/developers/documentation/v3/authentication) to setup an account and obtain the API key. The copy the API key and paste it into `/connection.js` replacing `[INSERT_YELP_API_TOKEN]` with the API key.
 
 ##### 2. Install the app
 To install the application with all of its dependencies:
